@@ -1,0 +1,41 @@
+body {
+	background-color: whitesmoke;
+}
+
+fieldset {
+	border: 1px solid rgb(0,0,255);
+  	width: 400px;
+  	margin: auto;
+  	background-color: lightblue;
+}
+
+#lgstyle {
+	font-size: 25px;
+	color: white;
+	background-color: lightblue;
+	text-align: center;
+}
+
+#h4lbrk {
+	display: inline;
+}
+
+.sbutton {
+	background-color: black;
+    color: whitesmoke;
+    padding: 5px 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border: none;
+}
+
+.emstyle {
+	font-size: 15px;
+	color: red;
+	font-weight:bolder;
+	text-align: center;
+}

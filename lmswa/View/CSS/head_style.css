@@ -1,0 +1,130 @@
+body {
+   margin: 0px;
+}
+
+.header {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	color: black;
+	box-sizing: border-box;
+	padding-left: 100px;
+	text-align: left;
+	float: right;
+	font-size: 14px;
+	background-color: skyblue;
+}
+
+.lgstyle {
+	float: left;
+	margin-left: inherit;
+	color: ghostwhite;
+}
+
+.navbar {
+	overflow: hidden;
+	font: 16px Arial, sans-serif;
+	float: right;
+}
+
+.navbar a {
+  	float: left;
+  	text-align: center;
+  	padding: 14px 16px;
+  	text-decoration: none;
+  	color: black;
+}
+
+.subnav {
+  	float: left;
+	overflow: hidden;
+}
+
+.subnav .subnavbtn {
+  	border: none;
+  	outline: none;
+  	padding: 14px 16px;
+  	background-color: inherit;
+  	font-size: 15px;
+	margin: 0;
+}
+
+.subnavcontent {
+	display: none;
+	position: absolute;
+	width: 127%;
+	z-index: 1;
+	margin: 0
+}
+
+.subnavcontent a {
+  	float: left;
+  	text-decoration: none;
+}
+
+.subnav:hover .subnavcontent {
+  	display: block;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 127px;
+	background-color: skyblue;
+}
+
+li a {
+	display: block;
+	padding: 8px 16px;
+	text-decoration: none;
+	background-color: skyblue;
+}
+
+li a:hover {
+  	color: ghostwhite;
+}
+
+#myprofile {
+	background-color: inherit;
+	color: green;
+	border: none;
+	width: 127px;
+	padding: 15px 16px;
+	text-decoration: none;
+	display: block;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#settings, #lgout {
+	background-color: inherit;
+	border: none;
+	width: 127px;
+	padding: 15px 16px;
+	text-decoration: none;
+	display: block;
+	cursor: pointer;
+	font-size: 14px;
+}
+
+#myprofile:hover {
+	color: limegreen;
+}
+
+#settings:hover, #lgout:hover, #rfam:hover, #lfam:hover, #vfam:hover, #efam:hover {
+  	color: ghostwhite;
+}
+
+#rfam, #lfam, #vfam, #efam {
+	background-color: inherit;
+	border: none;
+	padding: 15px 16px;
+	text-decoration: none;
+	display: block;
+	cursor: pointer;
+	font-size: 14px;
+	width:127px;
+}

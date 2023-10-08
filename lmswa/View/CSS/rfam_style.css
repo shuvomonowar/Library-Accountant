@@ -1,0 +1,26 @@
+#nra_style {
+	display: inline;
+}
+
+#lgstyle {
+	font-size: 20px;
+	color: blue;
+}
+
+#sstyle {
+	background-color: black;
+    color: whitesmoke;
+    padding: 2px 7px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border: none;
+}
+
+.unemstyle {
+	font-size: 15px;
+	color: red;
+}
